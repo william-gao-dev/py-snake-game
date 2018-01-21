@@ -20,7 +20,7 @@ display_height = 600
 
 # Variables
 gameDisplay = pygame.display.set_mode((display_width, display_height))  ##resolution, note that this is a tuple.
-pygame.display.set_caption("Snake VS Apple")  # Title at the top of the screen
+pygame.display.set_caption("Shnake")  # Title at the top of the screen
 
 icon = pygame.image.load('logoapple32x32.png')  # Loads the icon for the top left
 pygame.display.set_icon(icon)  # Sets the icon for the top left
